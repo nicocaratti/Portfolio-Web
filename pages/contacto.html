@@ -10,16 +10,32 @@
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <!-- <a href="#" class="enlance-logo-nav"><img src="../assets/img/Face-Nav2.png" alt="" class="logo-nav"></a> -->
-            <a href="" class="menu"><img src="../assets/img/menu.png" alt=""></a>
-            <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Sobre mi</a></li>
-                <li><a href="">Proyectos</a></li>
-                <li><a href="">Inspiracion</a></li>
-                <li><a href="">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #BDCDD6;">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="../assets/img/Face-Nav2.png" alt="logo" width="80px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/sobre-mi.html">Conoceme</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/proyectos.html">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/inspiracion.html">Inspiracion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../pages/contacto.html">Contacto</a>
+                </li>
+                </ul>
+            </div>
+            </div>
         </nav>
     </header>
     <main>
@@ -27,28 +43,28 @@
             <h1 class="titulos">Contáctate conmigo</h1>
             <div>
                 <form action="" method="post">
-                  <div class="inputs">
-                      <label for="Nombre">
-                          <input type="text" id="Nombre" placeholder="Nombre" required class="input-name-email">
-                      </label>
-                      <label for="Email">
-                          <input type="text" id="Email" placeholder="Email" required class="input-name-email">
-                      </label>
-                  </div>
-                  <div class="inputs">
-                      <label for="Asunto">
-                          <input type="text" id="Asunto" placeholder="Asunto" required class="input-asunto">
-                      </label>
-                  </div>
-                  <div class="inputs">
-                  <label for="Mensaje">
-                      <input type="text" id="Mensaje" placeholder="Escribe un mensaje" required class="input-mensaje">
-                  </label>
-                  </div>
+                <div class="inputs">
+                    <label for="Nombre">
+                        <input type="text" id="Nombre" placeholder="Nombre" required class="input-name-email">
+                    </label>
+                    <label for="Email">
+                        <input type="text" id="Email" placeholder="Email" required class="input-name-email">
+                    </label>
+                </div>
+                <div class="inputs">
+                    <label for="Asunto">
+                        <input type="text" id="Asunto" placeholder="Asunto" required class="input-asunto">
+                    </label>
+                </div>
+                <div class="inputs">
+                <label for="Mensaje">
+                    <input type="text" id="Mensaje" placeholder="Escribe un mensaje" required class="input-mensaje">
+                </label>
+                </div>
                 </form>
             </div>
             <div class="boton-formulario">
-              <button><a href="">Enviar</a></button>
+            <button><a href="">Enviar</a></button>
             </div>
         </section>
     </main>
