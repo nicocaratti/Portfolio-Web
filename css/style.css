@@ -91,6 +91,11 @@ body{
     border-color: #6A6453;
 }
 
+.boton-proyecto-home a{
+    color: #6A6453;
+    text-decoration: none;
+}
+
 .home-proyectos{
     margin-bottom: 9.6rem;
 }
@@ -268,6 +273,11 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 1.6rem;
     color: #9C947C;
+    text-decoration: none;
+}
+
+.card-proyecto button a{
+    color: #6A6453;
     text-decoration: none;
 }
 
@@ -471,6 +481,49 @@ body{
     font-size: 1.6rem;
     margin-bottom: 1.6rem;
 }
+
+.card-proyecto{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 60rem;
+    height: 26rem;
+    gap: 4.8rem;
+    margin-top: 6.4rem;
+    margin-bottom: 6.4rem;
+}
+
+.card-proyecto img{
+    height: 26rem;
+}
+
+.card-proyecto h2{
+    color: #6A6453;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2.4rem;
+}
+
+.card-proyecto p{
+    color: #9C947C;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 2.4rem;
+}
+
+.card-proyecto button{
+    width: 25.6rem;
+    height: 3.2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    color: #6A6453;
+    border-color: #6A6453;
+}
 }
 
 
@@ -572,5 +625,49 @@ body{
 
     .footer-estilo{
         gap:  3.2rem;
+    }
+
+    .card-proyecto{
+        margin: 0 auto;
+        display: block;
+        align-items: center;
+        text-align: center;
+        width: 32rem;
+        height: 52rem;
+        margin-top: 3.2rem;
+        margin-bottom: 6.4rem;
+    }
+    
+    .card-proyecto img{
+        height: 24rem;
+    }
+    
+    .card-proyecto h2{
+        color: #6A6453;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.4rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 2.4rem;
+        margin-bottom: 2.4rem;
+    }
+    
+    .card-proyecto p{
+        color: #9C947C;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.4rem;
+        text-align: center;
+        margin: 0 2.4rem 2.4rem 2.4rem;
+
+    }
+    
+    .card-proyecto button{
+        width: 25.6rem;
+        height: 3.2rem;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.4rem;
+        color: #6A6453;
+        border-color: #6A6453;
     }
 }
