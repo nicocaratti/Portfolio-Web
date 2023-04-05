@@ -20,11 +20,7 @@ body{
 }
 
 .container-fluid{
-    margin-left: 6.4rem;
-}
-
-.navbar-nav{
-    gap: 4.8rem;
+    margin-left: 5.6rem;
 }
 
 .nav-item a{
@@ -74,12 +70,14 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 3.2rem;
     font-weight: bold;
+    margin-bottom: 3.2rem;
 }
 
 .card-home p{
     color: #9C947C;
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
+    margin-bottom: 3.2rem;
 }
 
 .boton-proyecto-home{
@@ -379,48 +377,200 @@ body{
 /* MEDIA TABLET */
 
 @media (max-width: 768px){
-    header{
-        height: 8.8rem;
-    }
-
-    .navbar ul{
-        gap: 5.6rem;
-    }
-    .navbar a{
-        font-size: 1.6rem;
-    }
+.titulos{
+    color: #6A6453;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3.2rem;
+    margin-top: 3.2rem;
 }
+
+.card-home{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 60rem;
+    height: 26rem;
+    background-color: #DED6BF;
+    border-radius: 3.2rem;
+    margin-bottom: 4.8rem;
+    margin-top: 4.8rem;
+}
+
+.card-home img{
+    margin: 3rem 0 3rem 0;
+    width: 20rem;
+    height: 20rem;
+}
+.card-home-texto{
+    margin: 0rem 3.2rem 0rem 3.2rem;
+}
+
+.card-home h2{
+    color: #9C947C;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 1.6rem;
+}
+
+.card-home p{
+    color: #9C947C;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.boton-proyecto-home{
+    background-color: #DED6BF;
+    width: 25.6rem;
+    height: 3.2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    color: #6A6453;
+    border-color: #6A6453;
+}
+
+.card-home-about{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 32rem;
+    background-color: #DED6BF;
+    margin-bottom: 9.6rem;
+}
+
+.card-home-about div{
+    margin: 0 5.6rem 0 0;
+}
+
+.card-home-about img{
+    margin-left: 0rem;
+    width: 32rem;
+    height: 32rem;
+}
+
+.card-home-about h2{
+    color: #6A6453;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+}
+
+.card-home-about p{
+    color: #9C947C;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+}
+
+
 
 /* MEDIA MOBILE */
 
-@media (max-width: 425px){
-    header{
-        height: 6.4rem;
-        align-items: start;
+@media (max-width: 320px){
+    .titulos{
+        color: #6A6453;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.4rem;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 2.4rem;
+        margin-top: 2.4rem;
     }
-    .navbar ul{
-    display: none;
-    }
-    .menu{
-        align-items: start;
-        display: flex;
-    }
-}
 
-/* MEDIA TABLET */
-
-@media (max-width: 768px){
     .card-home{
-        flex-direction: column;
-        align-items:center ;
-        width: 69.6rem;
-        height: 64rem;
+        display: block;
+        margin: 0 auto;
+        width: 30rem;
+        height: 48rem;
         background-color: #DED6BF;
-        border-radius: 3.2rem;
+        border-radius: 1.6rem;
+        margin-bottom: 2.4rem;
+        margin-top: 2.4rem;
     }
     
     .card-home img{
-        width: 20rem;
-        height: 20rem;
+        margin: 3rem 0 3rem 0;
+        width: 16rem;
+        height: 16rem;
+    }
+    .card-home-texto{
+    }
+    
+    .card-home h2{
+        color: #9C947C;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.4rem;
+        font-weight: bold;
+        margin-bottom: 1.6rem;
+    }
+    
+    .card-home p{
+        color: #9C947C;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.4rem;
+        margin-bottom: 1.6rem;
+    }
+    
+    .boton-proyecto-home{
+        background-color: #DED6BF;
+        width: 22.4rem;
+        height: 3.2rem;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.4rem;
+        color: #6A6453;
+        border-color: #6A6453;
+    }
+    
+    .card-home-about{
+        margin: 0 auto;
+        display: block;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 54.4rem;
+        background-color: #DED6BF;
+        margin-bottom: 9.6rem;
+    }
+    
+    .card-home-about div{
+        margin: 0 2.4rem 0 2.4rem;
+    }
+    
+    .card-home-about img{
+        margin-left: 0rem;
+        width: 24rem;
+        height: 24rem;
+    }
+    
+    .card-home-about h2{
+        color: #6A6453;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.4rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 1.6rem;
+    }
+    
+    .card-home-about p{
+        color: #9C947C;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.4rem;
+        margin-bottom: 1.6rem;
+    }
+
+    .footer-estilo{
+        gap:  3.2rem;
     }
 }
