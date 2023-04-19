@@ -1,11 +1,13 @@
 @import "./base/reset";
+@import "./base/general";
 @import "./base/typo";
 @import "./components/bootstrap";
 @import "./components/botones";
 @import "./layout/footer";
 @import "./layout/header";
 @import "./layout/main";
-@import "./layout/media";
+@import "./layout/media768";
+@import "./layout/media320";
 @import "./utilities/funciones";
 @import "./utilities/mixins";
 @import "./utilities/variables";

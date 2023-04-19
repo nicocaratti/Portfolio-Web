@@ -169,15 +169,6 @@ body{
     margin-bottom: 1.6rem;
 }
 
-.footer-estilo{
-    background-color:#93BFCF ;
-    height: 9.6rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8rem;
-}
-
 .about{
     display: flex;
     justify-content: center;
@@ -419,6 +410,14 @@ body{
     text-decoration: none;
 }
 
+.footer-estilo{
+    background-color:#93BFCF ;
+    height: 9.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+}
 
 /* MEDIA TABLET */
 
