@@ -26,9 +26,17 @@ font-family: 'Poppins', sans-serif; */
   border-color: #6A6453;
 }
 
+.boton-proyecto-home:hover {
+  background-color: #6A6453;
+}
+
 .boton-proyecto-home a {
   color: #6A6453;
   text-decoration: none;
+}
+
+.boton-proyecto-home a:hover {
+  color: #DED6BF;
 }
 
 .about-button {
@@ -44,11 +52,20 @@ font-family: 'Poppins', sans-serif; */
   margin-bottom: 9.6rem;
 }
 
+.about-button:hover {
+  background-color: #6A6453;
+}
+
 .about-button a {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
   color: #6A6453;
   text-decoration: none;
+}
+
+.about-button a:hover {
+  color: #EEE9DA;
+  font-size: 2rem;
 }
 
 .card-proyecto button {
@@ -63,9 +80,17 @@ font-family: 'Poppins', sans-serif; */
   text-decoration: none;
 }
 
+.card-proyecto button:hover {
+  background-color: #6A6453;
+}
+
 .card-proyecto button a {
   color: #6A6453;
   text-decoration: none;
+}
+
+.card-proyecto button a:hover {
+  color: #EEE9DA;
 }
 
 .boton-formulario {
@@ -571,6 +596,85 @@ font-family: 'Poppins', sans-serif; */
     color: #6A6453;
     border-color: #6A6453;
   }
+  .card-about {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+  }
+  .card-about img {
+    width: 24rem;
+    height: 30rem;
+    align-items: center;
+    margin-left: 3.2rem;
+  }
+  .card-about-texto {
+    margin-left: 0rem;
+  }
+  .card-about h2 {
+    color: #6A6453;
+    font-family: "Poppins", sans-serif;
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+  }
+  .card-about p {
+    color: #9C947C;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 3.2rem 2.4rem 3.2rem;
+  }
+  .formacion-titulo {
+    color: #9C947C;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.4rem;
+    margin-left: 6.4rem;
+  }
+  .formacion-texto {
+    color: #9C947C;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    margin-left: 6.4rem;
+    font-weight: lighter;
+    margin-bottom: 2.4rem;
+  }
+  .cards-herramientas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+    margin-bottom: 4.8rem;
+  }
+  .logo-herramienta {
+    width: 14rem;
+    height: 14rem;
+    background-color: #DED6BF;
+    border-radius: 0.8rem;
+    display: flex;
+    justify-content: center;
+  }
+  .about-button {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40rem;
+    height: 4.8rem;
+    background-color: #EEE9DA;
+    border-width: 0.4rem;
+    border-color: #6A6453;
+    margin-bottom: 9.6rem;
+  }
+  .about-button a {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    color: #6A6453;
+    text-decoration: none;
+  }
 }
 /* MEDIA MOBILE */
 @media (max-width: 425px) {
@@ -728,6 +832,85 @@ font-family: 'Poppins', sans-serif; */
     font-size: 1.4rem;
     color: #6A6453;
     border-color: #6A6453;
+  }
+  .card-about {
+    margin: 0 auto;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin-top: 3.2rem;
+    margin-bottom: 20rem;
+  }
+  .card-about img {
+    width: 24rem;
+    height: 30rem;
+    align-items: center;
+  }
+  .card-about-texto {
+    margin-left: 0rem;
+    height: 40rem;
+  }
+  .card-about h2 {
+    color: #6A6453;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+  }
+  .card-about p {
+    color: #9C947C;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 0 2.4rem 2.4rem 2.4rem;
+  }
+  .formacion-titulo {
+    color: #9C947C;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    margin-left: 3.2rem;
+  }
+  .formacion-texto {
+    color: #9C947C;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    margin-left: 3.2rem;
+    font-weight: lighter;
+    margin-bottom: 2.4rem;
+  }
+  .cards-herramientas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+    margin-bottom: 4.8rem;
+  }
+  .logo-herramienta {
+    width: 6rem;
+    height: 6rem;
+    background-color: #DED6BF;
+    border-radius: 0.8rem;
+    display: flex;
+    justify-content: center;
+  }
+  .about-button {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24rem;
+    height: 4rem;
+    background-color: #EEE9DA;
+    border-width: 0.4rem;
+    border-color: #6A6453;
+    margin-bottom: 9.6rem;
+  }
+  .about-button a {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    color: #6A6453;
+    text-decoration: none;
   }
 }
 
