@@ -25,16 +25,13 @@ font-family: 'Poppins', sans-serif; */
   color: #6A6453;
   border-color: #6A6453;
 }
-
 .boton-proyecto-home:hover {
   background-color: #6A6453;
 }
-
 .boton-proyecto-home a {
   color: #6A6453;
   text-decoration: none;
 }
-
 .boton-proyecto-home a:hover {
   color: #DED6BF;
 }
@@ -51,21 +48,17 @@ font-family: 'Poppins', sans-serif; */
   border-color: #6A6453;
   margin-bottom: 9.6rem;
 }
-
 .about-button:hover {
   background-color: #6A6453;
 }
-
 .about-button a {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
   color: #6A6453;
   text-decoration: none;
 }
-
 .about-button a:hover {
   color: #EEE9DA;
-  font-size: 2rem;
 }
 
 .card-proyecto button {
@@ -79,16 +72,13 @@ font-family: 'Poppins', sans-serif; */
   color: #9C947C;
   text-decoration: none;
 }
-
 .card-proyecto button:hover {
   background-color: #6A6453;
 }
-
 .card-proyecto button a {
   color: #6A6453;
   text-decoration: none;
 }
-
 .card-proyecto button a:hover {
   color: #EEE9DA;
 }
@@ -98,7 +88,6 @@ font-family: 'Poppins', sans-serif; */
   justify-content: center;
   align-items: center;
 }
-
 .boton-formulario button {
   background-color: #6A6453;
   width: 82.4rem;
@@ -106,8 +95,7 @@ font-family: 'Poppins', sans-serif; */
   margin-bottom: 9.6rem;
   border: none;
 }
-
-.boton-formulario a {
+.boton-formulario button a {
   color: #EEE9DA;
   font-family: "Nunito", sans-serif;
   font-size: 1.6rem;
@@ -146,16 +134,14 @@ font-family: 'Poppins', sans-serif; */
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(6, 1fr);
 }
-
-.img-portada {
+.portada img {
   height: 75%;
   grid-column-start: 2;
   grid-column-end: 5;
   grid-row-start: 2;
   grid-row-end: 65;
 }
-
-.h1-portada {
+.portada h1 {
   font-size: 4rem;
   color: #EEE9DA;
   grid-column-start: 5;
@@ -163,8 +149,7 @@ font-family: 'Poppins', sans-serif; */
   grid-row-start: 2;
   grid-row-end: 6;
 }
-
-.p-portada {
+.portada p {
   font-size: 2rem;
   color: #EEE9DA;
   grid-column-start: 5;
@@ -183,7 +168,10 @@ font-family: 'Poppins', sans-serif; */
   margin-top: 4.8rem;
 }
 
-.card-home {
+.home-proyectos {
+  margin-bottom: 9.6rem;
+}
+.home-proyectos .card-home {
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -195,34 +183,26 @@ font-family: 'Poppins', sans-serif; */
   margin-bottom: 4.8rem;
   margin-top: 4.8rem;
 }
-
-.card-home img {
+.home-proyectos .card-home img {
   margin: 3rem 0 3rem 0;
   width: 30rem;
   height: 30rem;
 }
-
-.card-home-texto {
+.home-proyectos .card-home div {
   margin: 0rem 6.2rem 0rem 6.2rem;
 }
-
-.card-home h2 {
+.home-proyectos .card-home div h2 {
   color: #9C947C;
   font-family: "Poppins", sans-serif;
   font-size: 3.2rem;
   font-weight: bold;
   margin-bottom: 3.2rem;
 }
-
-.card-home p {
+.home-proyectos .card-home div p {
   color: #9C947C;
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
   margin-bottom: 3.2rem;
-}
-
-.home-proyectos {
-  margin-bottom: 9.6rem;
 }
 
 .card-home-about {
@@ -235,13 +215,11 @@ font-family: 'Poppins', sans-serif; */
   background-color: #DED6BF;
   margin-bottom: 9.6rem;
 }
-
 .card-home-about img {
   margin-left: 2.4rem;
   width: 38.4rem;
   height: 38.4rem;
 }
-
 .card-home-about h2 {
   color: #6A6453;
   font-family: "Poppins", sans-serif;
@@ -250,7 +228,6 @@ font-family: 'Poppins', sans-serif; */
   text-transform: uppercase;
   margin-bottom: 1.6rem;
 }
-
 .card-home-about p {
   color: #9C947C;
   font-family: "Poppins", sans-serif;
@@ -263,8 +240,7 @@ font-family: 'Poppins', sans-serif; */
   justify-content: center;
   align-items: center;
 }
-
-.card-about {
+.about .card-about {
   display: flex;
   width: 84rem;
   height: 40rem;
@@ -272,18 +248,15 @@ font-family: 'Poppins', sans-serif; */
   justify-content: center;
   align-items: center;
 }
-
-.card-about img {
+.about .card-about img {
   width: 40rem;
   height: 40rem;
 }
-
-.card-about-texto {
+.about .card-about div {
   margin-left: 6.4rem;
   height: 40rem;
 }
-
-.card-about h2 {
+.about .card-about div h2 {
   color: #6A6453;
   font-family: "Poppins", sans-serif;
   font-size: 4.8rem;
@@ -291,22 +264,20 @@ font-family: 'Poppins', sans-serif; */
   text-align: center;
   margin-bottom: 2.4rem;
 }
-
-.card-about p {
+.about .card-about div p {
   color: #9C947C;
   font-family: "Poppins", sans-serif;
   font-size: 2.4rem;
   text-align: center;
 }
 
-.formacion-titulo {
+.formacion-contenido h3 {
   color: #9C947C;
   font-family: "Poppins", sans-serif;
   font-size: 3.2rem;
   margin-left: 9.6rem;
 }
-
-.formacion-texto {
+.formacion-contenido p {
   color: #9C947C;
   font-family: "Poppins", sans-serif;
   font-size: 2.4rem;
@@ -322,8 +293,7 @@ font-family: 'Poppins', sans-serif; */
   gap: 3.2rem;
   margin-bottom: 4.8rem;
 }
-
-.logo-herramienta {
+.cards-herramientas .logo-herramienta {
   width: 20rem;
   height: 20rem;
   background-color: #DED6BF;
@@ -343,7 +313,6 @@ font-family: 'Poppins', sans-serif; */
   margin-top: 9.6rem;
   margin-bottom: 9.6rem;
 }
-
 .card-proyecto h2 {
   color: #6A6453;
   font-family: "Poppins", sans-serif;
@@ -352,7 +321,6 @@ font-family: 'Poppins', sans-serif; */
   text-align: center;
   margin-bottom: 2.4rem;
 }
-
 .card-proyecto p {
   color: #9C947C;
   font-family: "Poppins", sans-serif;
@@ -381,7 +349,6 @@ font-family: 'Poppins', sans-serif; */
   align-items: center;
   text-align: center;
 }
-
 .libros p {
   color: #6A6453;
   font-family: "Poppins", sans-serif;
@@ -396,7 +363,6 @@ font-family: 'Poppins', sans-serif; */
   text-align: center;
   gap: 8rem;
 }
-
 .lugares p {
   color: #6A6453;
   font-family: "Poppins", sans-serif;
@@ -412,8 +378,7 @@ font-family: 'Poppins', sans-serif; */
   margin-bottom: 4rem;
   gap: 2.4rem;
 }
-
-.input-name-email {
+.inputs .input-name-email {
   width: 40rem;
   height: 6.4rem;
   font-family: "Nunito", sans-serif;
@@ -421,8 +386,7 @@ font-family: 'Poppins', sans-serif; */
   color: #9C947C;
   text-indent: 2.4rem;
 }
-
-.input-asunto {
+.inputs .input-asunto {
   width: 82.4rem;
   height: 6.4rem;
   font-family: "Nunito", sans-serif;
@@ -430,8 +394,7 @@ font-family: 'Poppins', sans-serif; */
   color: #9C947C;
   text-indent: 2.4rem;
 }
-
-.input-mensaje {
+.inputs .input-mensaje {
   width: 82.4rem;
   height: 32rem;
   font-family: "Nunito", sans-serif;

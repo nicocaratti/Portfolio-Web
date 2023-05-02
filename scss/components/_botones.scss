@@ -7,19 +7,16 @@
     font-size: 1.6rem;
     color: #6A6453;
     border-color: #6A6453;
-}
-
-.boton-proyecto-home:hover{
-    background-color: #6A6453;
-}
-
-.boton-proyecto-home a{
-    color: #6A6453;
-    text-decoration: none;
-}
-
-.boton-proyecto-home a:hover{
-    color: #DED6BF;
+    &:hover{
+        background-color: #6A6453;
+    }
+    a{
+        color: #6A6453;
+        text-decoration: none;
+        &:hover{
+            color: #DED6BF;
+        }
+    }
 }
 
 
@@ -34,22 +31,18 @@
     border-width: 0.4rem;
     border-color: #6A6453;
     margin-bottom: 9.6rem;
-}
-
-.about-button:hover{
-    background-color: #6A6453;
-}
-
-.about-button a{
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.6rem;
-    color: #6A6453;
-    text-decoration: none;
-}
-
-.about-button a:hover{
-    color: #EEE9DA;
-    font-size: 2rem;
+    &:hover{
+        background-color: #6A6453;
+    }  
+    a{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.6rem;
+        color: #6A6453;
+        text-decoration: none;
+        &:hover{
+            color: #EEE9DA;
+        }
+    }  
 }
 
 .card-proyecto button{
@@ -62,38 +55,33 @@
     font-size: 1.6rem;
     color: #9C947C;
     text-decoration: none;
-}
-
-.card-proyecto button:hover{
-    background-color: #6A6453;
-}
-
-.card-proyecto button a{
-    color: #6A6453;
-    text-decoration: none;
-}
-
-.card-proyecto button a:hover{
-    color: #EEE9DA;
+    &:hover{
+        background-color: #6A6453;
+    }
+    a{
+        color: #6A6453;
+        text-decoration: none;
+        &:hover{
+            color: #EEE9DA;
+        }
+    }
 }
 
 .boton-formulario{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.boton-formulario button{
-    background-color: #6A6453;
-    width: 82.4rem;
-    height: 5.6rem;
-    margin-bottom: 9.6rem;
-    border: none;
-}
-
-.boton-formulario a{
-    color: #EEE9DA;
-    font-family: 'Nunito', sans-serif;
-    font-size: 1.6rem;
-    text-decoration: none;
+    button{
+        background-color: #6A6453;
+        width: 82.4rem;
+        height: 5.6rem;
+        margin-bottom: 9.6rem;
+        border: none;
+        a{
+            color: #EEE9DA;
+            font-family: 'Nunito', sans-serif;
+            font-size: 1.6rem;
+            text-decoration: none;
+        }
+    }
 }
