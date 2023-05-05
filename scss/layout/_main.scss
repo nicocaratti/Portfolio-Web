@@ -1,5 +1,5 @@
 .portada{
-    background-image: url(../assets/img/PORTADA.png);
+    background-image: url(https://i.postimg.cc/4xGJpq86/PORTADA.png);
     width: 100%;
     height: 40rem;
     background-position: center;
@@ -78,34 +78,40 @@
     }
 }
 
-
-.card-home-about{
-    margin: 0 auto;
+.home-about{
     display: flex;
     align-items: center;
-    text-align: center;
-    width: 100%;
-    height: 38.4rem;
-    background-color: #DED6BF;
-    margin-bottom: 9.6rem;
-    img{
-        margin-left: 2.4rem;
-        width: 38.4rem;
-        height: 38.4rem;
-    }
-    h2{
-        color: #6A6453;
-        font-family: 'Poppins', sans-serif;
-        font-size: 4rem;
-        font-weight: bold;
-        text-transform: uppercase;
-        margin-bottom: 1.6rem;
-    }
-    p{
-        color: #9C947C;
-        font-family: 'Poppins', sans-serif;
-        font-size: 2rem;
-        margin-bottom: 1.6rem;
+    justify-content: center;
+    .card-home-about{
+        margin: 0rem 6rem 0rem 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 80%;
+        height: 40rem;
+        background-color: #DED6BF;
+        margin-bottom: 9.6rem;
+        img{
+            width: 40rem;
+            height: 40rem;
+        }
+        h2{
+            color: #6A6453;
+            font-family: 'Poppins', sans-serif;
+            font-size: 4rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 5.6rem;
+        }
+        p{
+            color: #9C947C;
+            font-family: 'Poppins', sans-serif;
+            font-size: 2rem;
+            margin-bottom: 5.6rem;
+            text-align: center;
+            margin: 0rem 6rem 5.6rem 6rem;
+        }
     }
 }
 
@@ -145,20 +151,23 @@
     }
 }
 
-.formacion-contenido{
-    h3{
-        color: #9C947C;
-        font-family: 'Poppins', sans-serif;
-        font-size: 3.2rem;
-        margin-left: 9.6rem;
-    }
-    p{
-        color: #9C947C;
-        font-family: 'Poppins', sans-serif;
-        font-size: 2.4rem;
-        margin-left: 9.6rem;
-        font-weight: lighter;
-        margin-bottom: 2.4rem; 
+.formacion-lista{
+    margin: 0rem 8rem 0rem 8rem;
+    .formacion-contenido{
+        h3{
+            color: #9C947C;
+            font-family: 'Poppins', sans-serif;
+            font-size: 3.2rem;
+            margin-left: 9.6rem;
+        }
+        p{
+            color: #9C947C;
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.4rem;
+            margin-left: 9.6rem;
+            font-weight: lighter;
+            margin-bottom: 2.4rem; 
+        }
     }
 }
 

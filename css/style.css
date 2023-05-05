@@ -126,7 +126,7 @@ font-family: 'Poppins', sans-serif; */
 }
 
 .portada {
-  background-image: url(../assets/img/PORTADA.png);
+  background-image: url(https://i.postimg.cc/4xGJpq86/PORTADA.png);
   width: 100%;
   height: 40rem;
   background-position: center;
@@ -205,34 +205,41 @@ font-family: 'Poppins', sans-serif; */
   margin-bottom: 3.2rem;
 }
 
-.card-home-about {
-  margin: 0 auto;
+.home-about {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+.home-about .card-home-about {
+  margin: 0rem 6rem 0rem 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  width: 100%;
-  height: 38.4rem;
+  width: 80%;
+  height: 40rem;
   background-color: #DED6BF;
   margin-bottom: 9.6rem;
 }
-.card-home-about img {
-  margin-left: 2.4rem;
-  width: 38.4rem;
-  height: 38.4rem;
+.home-about .card-home-about img {
+  width: 40rem;
+  height: 40rem;
 }
-.card-home-about h2 {
+.home-about .card-home-about h2 {
   color: #6A6453;
   font-family: "Poppins", sans-serif;
   font-size: 4rem;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 1.6rem;
+  margin-bottom: 5.6rem;
 }
-.card-home-about p {
+.home-about .card-home-about p {
   color: #9C947C;
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
-  margin-bottom: 1.6rem;
+  margin-bottom: 5.6rem;
+  text-align: center;
+  margin: 0rem 6rem 5.6rem 6rem;
 }
 
 .about {
@@ -271,13 +278,16 @@ font-family: 'Poppins', sans-serif; */
   text-align: center;
 }
 
-.formacion-contenido h3 {
+.formacion-lista {
+  margin: 0rem 8rem 0rem 8rem;
+}
+.formacion-lista .formacion-contenido h3 {
   color: #9C947C;
   font-family: "Poppins", sans-serif;
   font-size: 3.2rem;
   margin-left: 9.6rem;
 }
-.formacion-contenido p {
+.formacion-lista .formacion-contenido p {
   color: #9C947C;
   font-family: "Poppins", sans-serif;
   font-size: 2.4rem;
@@ -406,7 +416,7 @@ font-family: 'Poppins', sans-serif; */
 /* MEDIA TABLET */
 @media (max-width: 768px) {
   .portada {
-    background-image: url(../assets/img/PORTADA.png);
+    background-image: url(https://i.postimg.cc/4xGJpq86/PORTADA.png);
     width: 100%;
     height: 32rem;
     background-position: center;
@@ -414,14 +424,14 @@ font-family: 'Poppins', sans-serif; */
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(6, 1fr);
   }
-  .img-portada {
+  .portada img {
     height: 75%;
     grid-column-start: 2;
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 65;
   }
-  .h1-portada {
+  .portada h1 {
     font-size: 4rem;
     color: #EEE9DA;
     grid-column-start: 5;
@@ -429,7 +439,7 @@ font-family: 'Poppins', sans-serif; */
     grid-row-start: 2;
     grid-row-end: 6;
   }
-  .p-portada {
+  .portada p {
     font-size: 2rem;
     color: #EEE9DA;
     grid-column-start: 5;
@@ -446,7 +456,10 @@ font-family: 'Poppins', sans-serif; */
     margin-bottom: 3.2rem;
     margin-top: 3.2rem;
   }
-  .card-home {
+  .home-proyectos {
+    margin-bottom: 9.6rem;
+  }
+  .home-proyectos .card-home {
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -458,56 +471,48 @@ font-family: 'Poppins', sans-serif; */
     margin-bottom: 4.8rem;
     margin-top: 4.8rem;
   }
-  .card-home img {
+  .home-proyectos .card-home img {
     margin: 3rem 0 3rem 0;
-    width: 20rem;
-    height: 20rem;
+    width: 24rem;
+    height: 24rem;
   }
-  .card-home-texto {
+  .home-proyectos .card-home div {
     margin: 0rem 3.2rem 0rem 3.2rem;
   }
-  .card-home h2 {
+  .home-proyectos .card-home div h2 {
     color: #9C947C;
     font-family: "Poppins", sans-serif;
     font-size: 2.4rem;
     font-weight: bold;
     margin-bottom: 1.6rem;
   }
-  .card-home p {
+  .home-proyectos .card-home div p {
     color: #9C947C;
     font-family: "Poppins", sans-serif;
     font-size: 1.4rem;
     margin-bottom: 2.4rem;
   }
-  .boton-proyecto-home {
-    background-color: #DED6BF;
-    width: 25.6rem;
-    height: 3.2rem;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    font-size: 1.4rem;
-    color: #6A6453;
-    border-color: #6A6453;
+  .home-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  .card-home-about {
+  .home-about .card-home-about {
     margin: 0 auto;
     display: flex;
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 32rem;
+    height: 40rem;
     background-color: #DED6BF;
     margin-bottom: 9.6rem;
   }
-  .card-home-about div {
-    margin: 0 5.6rem 0 0;
-  }
-  .card-home-about img {
+  .home-about img {
     margin-left: 0rem;
     width: 32rem;
     height: 32rem;
   }
-  .card-home-about h2 {
+  .home-about h2 {
     color: #6A6453;
     font-family: "Poppins", sans-serif;
     font-size: 3.2rem;
@@ -515,7 +520,7 @@ font-family: 'Poppins', sans-serif; */
     text-transform: uppercase;
     margin-bottom: 1.6rem;
   }
-  .card-home-about p {
+  .home-about p {
     color: #9C947C;
     font-family: "Poppins", sans-serif;
     font-size: 1.6rem;
@@ -559,7 +564,12 @@ font-family: 'Poppins', sans-serif; */
     color: #6A6453;
     border-color: #6A6453;
   }
-  .card-about {
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about .card-about {
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -567,16 +577,16 @@ font-family: 'Poppins', sans-serif; */
     margin-top: 3.2rem;
     margin-bottom: 3.2rem;
   }
-  .card-about img {
+  .about .card-about img {
     width: 24rem;
     height: 30rem;
     align-items: center;
     margin-left: 3.2rem;
   }
-  .card-about-texto {
+  .about .card-about div {
     margin-left: 0rem;
   }
-  .card-about h2 {
+  .about .card-about div h2 {
     color: #6A6453;
     font-family: "Poppins", sans-serif;
     font-size: 3.2rem;
@@ -584,20 +594,23 @@ font-family: 'Poppins', sans-serif; */
     margin-top: 2.4rem;
     margin-bottom: 2.4rem;
   }
-  .card-about p {
+  .about .card-about div p {
     color: #9C947C;
     font-family: "Poppins", sans-serif;
     font-size: 2rem;
     text-align: center;
     margin: 0 3.2rem 2.4rem 3.2rem;
   }
-  .formacion-titulo {
+  .formacion-lista {
+    margin: 0rem 8rem 0rem 8rem;
+  }
+  .formacion-lista .formacion-contenido h3 {
     color: #9C947C;
     font-family: "Poppins", sans-serif;
     font-size: 2.4rem;
     margin-left: 6.4rem;
   }
-  .formacion-texto {
+  .formacion-lista .formacion-contenido p {
     color: #9C947C;
     font-family: "Poppins", sans-serif;
     font-size: 2rem;
@@ -612,7 +625,7 @@ font-family: 'Poppins', sans-serif; */
     gap: 3.2rem;
     margin-bottom: 4.8rem;
   }
-  .logo-herramienta {
+  .cards-herramientas .logo-herramienta {
     width: 14rem;
     height: 14rem;
     background-color: #DED6BF;
@@ -632,7 +645,7 @@ font-family: 'Poppins', sans-serif; */
     border-color: #6A6453;
     margin-bottom: 9.6rem;
   }
-  .about-button a {
+  .about-button .about-button a {
     font-family: "Poppins", sans-serif;
     font-size: 1.6rem;
     color: #6A6453;
@@ -640,9 +653,9 @@ font-family: 'Poppins', sans-serif; */
   }
 }
 /* MEDIA MOBILE */
-@media (max-width: 425px) {
+@media (max-width: 320px) {
   .portada {
-    background-image: url(../assets/img/PORTADA.png);
+    background-image: url(https://i.postimg.cc/4xGJpq86/PORTADA.png);
     width: 100%;
     height: 24rem;
     background-position: center;
@@ -650,7 +663,7 @@ font-family: 'Poppins', sans-serif; */
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(6, 1fr);
   }
-  .img-portada {
+  .portada img {
     height: 70%;
     grid-column-start: 6;
     grid-column-end: 10;
@@ -658,7 +671,7 @@ font-family: 'Poppins', sans-serif; */
     grid-row-end: 6;
     align-items: center;
   }
-  .h1-portada {
+  .portada h1 {
     text-align: center;
     font-size: 2rem;
     color: #EEE9DA;
@@ -667,7 +680,7 @@ font-family: 'Poppins', sans-serif; */
     grid-row-start: 5;
     grid-row-end: 6;
   }
-  .p-portada {
+  .portada p {
     text-align: center;
     font-size: 1.4rem;
     color: #EEE9DA;
@@ -685,29 +698,32 @@ font-family: 'Poppins', sans-serif; */
     margin-bottom: 2.4rem;
     margin-top: 2.4rem;
   }
-  .card-home {
+  .home-proyectos {
+    margin-bottom: 9.6rem;
+  }
+  .home-proyectos .card-home {
     display: block;
     margin: 0 auto;
     width: 30rem;
-    height: 48rem;
+    height: 56rem;
     background-color: #DED6BF;
     border-radius: 1.6rem;
     margin-bottom: 2.4rem;
     margin-top: 2.4rem;
   }
-  .card-home img {
+  .home-proyectos img {
     margin: 3rem 0 3rem 0;
     width: 16rem;
     height: 16rem;
   }
-  .card-home h2 {
+  .home-proyectos div h2 {
     color: #9C947C;
     font-family: "Poppins", sans-serif;
     font-size: 2.4rem;
     font-weight: bold;
     margin-bottom: 1.6rem;
   }
-  .card-home p {
+  .home-proyectos div p {
     color: #9C947C;
     font-family: "Poppins", sans-serif;
     font-size: 1.4rem;
@@ -723,33 +739,39 @@ font-family: 'Poppins', sans-serif; */
     color: #6A6453;
     border-color: #6A6453;
   }
-  .card-home-about {
+  .home-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-about .card-home-about {
     margin: 0 auto;
     display: block;
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 54.4rem;
+    height: 60rem;
     background-color: #DED6BF;
     margin-bottom: 9.6rem;
   }
-  .card-home-about div {
-    margin: 0 2.4rem 0 2.4rem;
-  }
-  .card-home-about img {
+  .home-about .card-home-about img {
     margin-left: 0rem;
     width: 24rem;
-    height: 24rem;
+    height: 28rem;
   }
-  .card-home-about h2 {
+  .home-about .card-home-about div {
+    margin: 0 2.4rem 0 2.4rem;
+  }
+  .home-about .card-home-about div h2 {
     color: #6A6453;
     font-family: "Poppins", sans-serif;
     font-size: 2.4rem;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 1.6rem;
+    margin-top: 1.6rem;
   }
-  .card-home-about p {
+  .home-about .card-home-about div p {
     color: #9C947C;
     font-family: "Poppins", sans-serif;
     font-size: 1.4rem;
@@ -796,24 +818,23 @@ font-family: 'Poppins', sans-serif; */
     color: #6A6453;
     border-color: #6A6453;
   }
-  .card-about {
+  .about .card-about {
     margin: 0 auto;
     display: inline-block;
     align-items: center;
     text-align: center;
     margin-top: 3.2rem;
-    margin-bottom: 20rem;
+    margin-bottom: 48rem;
   }
-  .card-about img {
+  .about img {
     width: 24rem;
     height: 30rem;
     align-items: center;
   }
-  .card-about-texto {
+  .about div {
     margin-left: 0rem;
-    height: 40rem;
   }
-  .card-about h2 {
+  .about div h2 {
     color: #6A6453;
     font-family: "Poppins", sans-serif;
     font-size: 2.4rem;
@@ -821,20 +842,23 @@ font-family: 'Poppins', sans-serif; */
     margin-top: 2.4rem;
     margin-bottom: 2.4rem;
   }
-  .card-about p {
+  .about div p {
     color: #9C947C;
     font-family: "Poppins", sans-serif;
-    font-size: 1.4rem;
+    font-size: 4.8rem;
     text-align: center;
     margin: 0 2.4rem 2.4rem 2.4rem;
   }
-  .formacion-titulo {
+  .formacion-lista {
+    margin: 0rem 4rem 8rem 4rem;
+  }
+  .formacion-lista .formacion-contenido h3 {
     color: #9C947C;
     font-family: "Poppins", sans-serif;
     font-size: 2rem;
     margin-left: 3.2rem;
   }
-  .formacion-texto {
+  .formacion-lista .formacion-contenido p {
     color: #9C947C;
     font-family: "Poppins", sans-serif;
     font-size: 1.6rem;
@@ -849,7 +873,7 @@ font-family: 'Poppins', sans-serif; */
     gap: 1.6rem;
     margin-bottom: 4.8rem;
   }
-  .logo-herramienta {
+  .cards-herramientas .logo-herramienta {
     width: 6rem;
     height: 6rem;
     background-color: #DED6BF;
