@@ -651,6 +651,22 @@ font-family: 'Poppins', sans-serif; */
     color: #6A6453;
     text-decoration: none;
   }
+  .libros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .libros img {
+    width: 75%;
+    height: 75%;
+  }
+  .libros p {
+    color: #6A6453;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 6rem;
+  }
 }
 /* MEDIA MOBILE */
 @media (max-width: 320px) {
@@ -898,6 +914,24 @@ font-family: 'Poppins', sans-serif; */
     font-size: 1.6rem;
     color: #6A6453;
     text-decoration: none;
+  }
+  .playlist2 {
+    gap: 4rem;
+  }
+  .lugares .iframe-responsive {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 80%;
+  }
+  .lugares .iframe-responsive iframe {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+  }
+  .lugares p {
+    font-size: 1rem;
   }
 }
 

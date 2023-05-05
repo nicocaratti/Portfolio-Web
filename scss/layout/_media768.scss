@@ -251,7 +251,22 @@
     }
 }
 
-
+.libros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    img{
+        width: 75%;
+        height: 75%;
+    }
+    p{
+        color: #6A6453;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.6rem;
+        margin-bottom: 6rem;
+    }
+}
 
 
 
