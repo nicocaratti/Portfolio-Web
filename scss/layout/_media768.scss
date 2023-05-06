@@ -268,8 +268,58 @@
     }
 }
 
+.formulario{
+    .inputs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 4rem;
+        gap: 0.8rem;
+        .input-name-email{
+            width: 24rem;
+            height: 5.6rem;
+            font-family: 'Nunito', sans-serif;
+            font-size: 1.6rem;
+            color: #9C947C; 
+            text-indent: 2.4rem;
+        }
+        .input-asunto{
+            width: 48rem;
+            height: 5.6rem;
+            font-family: 'Nunito', sans-serif;
+            font-size: 1.6em;
+            color: #9C947C; 
+            text-indent: 2.4rem;
+        }
+        .input-mensaje{
+            width: 48rem;
+            height: 20rem;
+            font-family: 'Nunito', sans-serif;
+            font-size: 1.6rem;
+            color: #9C947C; 
+            text-indent: 2.4rem;
+        }
+    }
+}
 
-
+.boton-formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        background-color: #6A6453;
+        width: 48rem;
+        height: 4.8rem;
+        margin-bottom: 10.8rem;
+        border: none;
+        a{
+            color: #EEE9DA;
+            font-family: 'Nunito', sans-serif;
+            font-size: 1.6rem;
+            text-decoration: none;
+        }
+    }
+}
 
 
 

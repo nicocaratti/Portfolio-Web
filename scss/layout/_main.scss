@@ -289,3 +289,30 @@
         text-indent: 2.4rem;
     }
 }
+
+.error404{
+    img{
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    p{
+        color: #6A6453;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.4rem;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 8rem;
+    }
+    a{
+        p{
+            margin-top: 8rem;
+            margin-bottom: 10rem;
+            text-decoration: none;
+            font-size: 2.4rem;
+        }
+    }
+}

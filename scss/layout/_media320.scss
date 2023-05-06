@@ -1,6 +1,6 @@
 /* MEDIA MOBILE */
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
     .portada {
         background-image: url(https://i.postimg.cc/4xGJpq86/PORTADA.png);
         width: 100%;
@@ -301,6 +301,7 @@
             justify-content: center;
             overflow: hidden;
             width: 80%;
+            height: 80%;
             iframe{
                 position: absolute;
                 width: 80%;
@@ -312,6 +313,83 @@
         }
         }
 
+        .formulario{
+            .inputs{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 4rem;
+                gap: 0.8rem;
+                .input-name-email{
+                    width: 12rem;
+                    height: 5.6rem;
+                    font-family: 'Nunito', sans-serif;
+                    font-size: 1.6rem;
+                    color: #9C947C; 
+                    text-indent: 2.4rem;
+                }
+                .input-asunto{
+                    width: 24rem;
+                    height: 5.6rem;
+                    font-family: 'Nunito', sans-serif;
+                    font-size: 1.6em;
+                    color: #9C947C; 
+                    text-indent: 2.4rem;
+                }
+                .input-mensaje{
+                    width: 24rem;
+                    height: 20rem;
+                    font-family: 'Nunito', sans-serif;
+                    font-size: 1.6rem;
+                    color: #9C947C; 
+                    text-indent: 2.4rem;
+                }
+            }
+        }
+        
+        .boton-formulario{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            button{
+                background-color: #6A6453;
+                width: 24rem;
+                height: 4.8rem;
+                margin-bottom: 10.8rem;
+                border: none;
+                a{
+                    color: #EEE9DA;
+                    font-family: 'Nunito', sans-serif;
+                    font-size: 1.6rem;
+                    text-decoration: none;
+                }
+            }
+        }
 
+        .error404{
+            img{
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 50%;
+                height: 50%;
+            }
+            p{
+                color: #6A6453;
+                font-family: 'Poppins', sans-serif;
+                font-size: 2.4rem;
+                margin: 0 auto;
+                margin-top: 8rem;
+            }
+            a{
+                p{
+                    margin-top: 8rem;
+                    margin-bottom: 10rem;
+                    text-decoration: none;
+                    font-size: 2.4rem;
+                }
+            }
+        }
 
 }

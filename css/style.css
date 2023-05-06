@@ -413,6 +413,29 @@ font-family: 'Poppins', sans-serif; */
   text-indent: 2.4rem;
 }
 
+.error404 img {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.error404 p {
+  color: #6A6453;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.4rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+}
+.error404 a p {
+  margin-top: 8rem;
+  margin-bottom: 10rem;
+  text-decoration: none;
+  font-size: 2.4rem;
+}
+
 /* MEDIA TABLET */
 @media (max-width: 768px) {
   .portada {
@@ -667,9 +690,58 @@ font-family: 'Poppins', sans-serif; */
     font-size: 1.6rem;
     margin-bottom: 6rem;
   }
+  .formulario .inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+    gap: 0.8rem;
+  }
+  .formulario .inputs .input-name-email {
+    width: 24rem;
+    height: 5.6rem;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.6rem;
+    color: #9C947C;
+    text-indent: 2.4rem;
+  }
+  .formulario .inputs .input-asunto {
+    width: 48rem;
+    height: 5.6rem;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.6em;
+    color: #9C947C;
+    text-indent: 2.4rem;
+  }
+  .formulario .inputs .input-mensaje {
+    width: 48rem;
+    height: 20rem;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.6rem;
+    color: #9C947C;
+    text-indent: 2.4rem;
+  }
+  .boton-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .boton-formulario button {
+    background-color: #6A6453;
+    width: 48rem;
+    height: 4.8rem;
+    margin-bottom: 10.8rem;
+    border: none;
+  }
+  .boton-formulario button a {
+    color: #EEE9DA;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.6rem;
+    text-decoration: none;
+  }
 }
 /* MEDIA MOBILE */
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .portada {
     background-image: url(https://i.postimg.cc/4xGJpq86/PORTADA.png);
     width: 100%;
@@ -924,6 +996,7 @@ font-family: 'Poppins', sans-serif; */
     justify-content: center;
     overflow: hidden;
     width: 80%;
+    height: 80%;
   }
   .lugares .iframe-responsive iframe {
     position: absolute;
@@ -932,6 +1005,76 @@ font-family: 'Poppins', sans-serif; */
   }
   .lugares p {
     font-size: 1rem;
+  }
+  .formulario .inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+    gap: 0.8rem;
+  }
+  .formulario .inputs .input-name-email {
+    width: 12rem;
+    height: 5.6rem;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.6rem;
+    color: #9C947C;
+    text-indent: 2.4rem;
+  }
+  .formulario .inputs .input-asunto {
+    width: 24rem;
+    height: 5.6rem;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.6em;
+    color: #9C947C;
+    text-indent: 2.4rem;
+  }
+  .formulario .inputs .input-mensaje {
+    width: 24rem;
+    height: 20rem;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.6rem;
+    color: #9C947C;
+    text-indent: 2.4rem;
+  }
+  .boton-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .boton-formulario button {
+    background-color: #6A6453;
+    width: 24rem;
+    height: 4.8rem;
+    margin-bottom: 10.8rem;
+    border: none;
+  }
+  .boton-formulario button a {
+    color: #EEE9DA;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.6rem;
+    text-decoration: none;
+  }
+  .error404 img {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+  }
+  .error404 p {
+    color: #6A6453;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.4rem;
+    margin: 0 auto;
+    margin-top: 8rem;
+  }
+  .error404 a p {
+    margin-top: 8rem;
+    margin-bottom: 10rem;
+    text-decoration: none;
+    font-size: 2.4rem;
   }
 }
 
